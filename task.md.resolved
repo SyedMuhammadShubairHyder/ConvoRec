@@ -1,0 +1,56 @@
+# ConvoRec Project Tasks
+
+## Phase 1: Foundation (Week 1-3)
+- [ ] **Week 1: Setup & Data Preparation**
+    - [x] Project Initialization
+        - [x] Create directory structure
+        - [x] Create [README.md](file:///c:/Users/Ayesh/.gemini/antigravity/scratch/ConvoRec/README.md)
+        - [x] Create [.gitignore](file:///c:/Users/Ayesh/.gemini/antigravity/scratch/ConvoRec/.gitignore)
+        - [x] Create [requirements.txt](file:///c:/Users/Ayesh/.gemini/antigravity/scratch/ConvoRec/requirements.txt)
+    - [x] Data Management
+        - [x] Implement data download/extraction script ([scripts/download_data.py](file:///c:/Users/Ayesh/.gemini/antigravity/scratch/ConvoRec/scripts/download_data.py))
+        - [x] Implement data loader class ([data/data_loader.py](file:///c:/Users/Ayesh/.gemini/antigravity/scratch/ConvoRec/data/data_loader.py))
+        - [x] Create train/validation/test split logic
+    - [ ] Basic data exploration notebook/script
+- [x] **Week 2: Build Baseline Neural Model**
+    - [x] Implement Matrix Factorization (MF)
+    - [x] Implement GMF & MLP components
+    - [x] Combine into Neural Collaborative Filtering (NCF)
+    - [x] Create training loop
+- [ ] **Week 3: Evaluation & Baseline Metrics**
+    - [ ] Implement RMSE, MAE, nDCG@10
+    - [ ] Create evaluation script
+
+## Phase 2: Memory System (Week 4-5)
+- [ ] **Week 4: Vector Database Setup**
+    - [ ] Setup ChromaDB
+    - [ ] Design UserMemory class
+- [ ] **Week 5: Profile Learning & Retrieval**
+    - [ ] Implement profile aggregation
+    - [ ] Implement temporal tracking
+
+## Phase 3: Conversational Intelligence (Week 6-8)
+- [ ] **Week 6: LLM Integration**
+    - [ ] Setup LLM interface
+- [ ] **Week 7: Planning Module (Cold Start)**
+    - [ ] Implement strategy for new users
+- [ ] **Week 8: Planning Module (Refinement)**
+    - [ ] Implement preference refinement
+
+## Phase 4: Explainability (Week 9-10)
+- [ ] **Week 9: Attention Mechanism**
+    - [ ] Add attention to NCF model
+- [ ] **Week 10: Explanation Generation**
+    - [ ] Implement natural language explanation generation
+
+## Phase 5: Integration & Interface (Week 11-12)
+- [ ] **Week 11: System Integration**
+    - [ ] Connect Agent, Memory, Model, and Explainer
+- [ ] **Week 12: Web Interface**
+    - [ ] Build Streamlit app
+
+## Phase 6: Evaluation & Documentation (Week 13-14)
+- [ ] **Week 13: User Study**
+    - [ ] Design and run experiments
+- [ ] **Week 14: Final Report**
+    - [ ] Documentation and presentation

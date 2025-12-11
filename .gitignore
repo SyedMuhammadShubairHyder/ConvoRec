@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data
+data/raw/
+data/processed/
+*.zip
+*.csv
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Artifacts
+artifacts/

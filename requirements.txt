@@ -1,0 +1,15 @@
+torch
+torchvision
+pandas
+numpy
+scikit-learn
+matplotlib
+openai
+anthropic
+chromadb
+streamlit
+tqdm
+seaborn
+plotly
+requests
+# requests is needed for downloading data
